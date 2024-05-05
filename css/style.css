@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-color: #f3e4d7;
+  --text-color: #814c3b;
+  --secondary-bg-color: white;
+  --main-color: black;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+.container {
+  background: var(--secondary-bg-color);
+  height: 100rem;
+  width: 50rem;
+  margin-top: 4rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .container-img {
+  height: 250px;
+  width: 600px;
+  border-radius: 10px;
+  margin-top: 2.5rem;
+}
