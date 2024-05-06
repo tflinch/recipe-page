@@ -22,7 +22,7 @@ body {
 
 .container {
   background: var(--secondary-bg-color);
-  height: 93rem;
+  height: 100rem;
   width: 40rem;
   margin-top: 4rem;
   border-radius: 10px;
